@@ -17,6 +17,10 @@ ip-192-168-91-194.ap-southeast-2.compute.internal   Ready    <none>   100s   v1.
 
 https://a06aed0e9db7464f81dd39ce1bb65866.vfs.cloud9.ap-southeast-2.amazonaws.com/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/?_c9_id=livepreview1&_c9_host=https://ap-southeast-2.console.aws.amazon.com#/namespace?namespace=default
 
+# Beginner - Deploy microservices
+
+http://a544c5bc4230442f8bfb55beb2e5f4a7-1253917647.ap-southeast-2.elb.amazonaws.com/
+
 # Links
 
 https://www.eksworkshop.com/
