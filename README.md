@@ -42,4 +42,6 @@ release "mywebserver" uninstalled
 
 https://www.eksworkshop.com/
 
+https://containers-immersionday.workshop.aws/setup.html
+
 https://github.com/aws-samples/kubernetes-for-java-developers#build-and-test-using-docker
