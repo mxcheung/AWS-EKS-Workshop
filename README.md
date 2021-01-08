@@ -45,3 +45,5 @@ https://www.eksworkshop.com/
 https://containers-immersionday.workshop.aws/setup.html
 
 https://github.com/aws-samples/kubernetes-for-java-developers#build-and-test-using-docker
+
+https://medium.com/swlh/universal-cicd-pipeline-on-aws-and-k8s-7b4129fac5d4
