@@ -42,3 +42,4 @@ release "mywebserver" uninstalled
 
 https://www.eksworkshop.com/
 
+https://github.com/aws-samples/kubernetes-for-java-developers#build-and-test-using-docker
