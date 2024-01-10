@@ -82,3 +82,16 @@ kubectl get pod
 kubectl get rs
 kubectl get node
 ```
+
+
+
+# Access the application using the load balance
+
+```
+# [ec2-user@ip-10-0-1-58 Course_EKS-Basics]$ kubectl get service
+# NAME         TYPE           CLUSTER-IP       EXTERNAL-IP                                                               PORT(S)        AGE
+# kubernetes   ClusterIP      10.100.0.1       <none>                                                                    443/TCP        12m
+# nginx-svc    LoadBalancer   10.100.235.194   a89fc942b7cb34906a1ffde1b91b7b81-1515611951.us-east-1.elb.amazonaws.com   80:32694/TCP   3m38s
+# curl "<LOAD_BALANCER_DNS_HOSTNAME>"
+curl 10.100.235.194 
+```
