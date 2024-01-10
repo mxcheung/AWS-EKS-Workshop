@@ -48,11 +48,12 @@ eksctl version
 
 # AWS configure
 ```
-[ec2-user@ip-10-0-1-58 ~]$ aws configure
-AWS Access Key ID [None]: AKIAU2HR6xxxxx
-AWS Secret Access Key [None]: FGb6lXCbKBYsUK+5xxxxxx
-Default region name [None]: us-east-1
-Default output format [None]: 
+# [ec2-user@ip-10-0-1-58 ~]$ aws configure
+# AWS Access Key ID [None]: AKIAU2HR6xxxxx
+# AWS Secret Access Key [None]: FGb6lXCbKBYsUK+5xxxxxx
+# Default region name [None]: us-east-1
+# Default output format [None]: 
+aws configure
 ```
 
 
@@ -68,6 +69,8 @@ eksctl create cluster --name dev --region us-east-1 --nodegroup-name standard-wo
 #Create a Deployment on Your EKS Cluster
 
 ```
+eksctl get cluster
+aws eks update-kubeconfig --name dev --region us-east-1
 sudo yum install -y git
 git clone https://github.com/ACloudGuru-Resources/Course_EKS-Basics
 cd Course_EKS-Basics
