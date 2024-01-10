@@ -61,3 +61,21 @@ Default output format [None]:
 ```
 eksctl create cluster --name dev --region us-east-1 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4 --managed
 ```
+
+
+
+
+#Create a Deployment on Your EKS Cluster
+
+```
+sudo yum install -y git
+git clone https://github.com/ACloudGuru-Resources/Course_EKS-Basics
+cd Course_EKS-Basics
+kubectl apply -f ./nginx-svc.yaml
+kubectl get service
+kubectl apply -f ./nginx-deployment.yaml
+kubectl get deployment
+kubectl get pod
+kubectl get rs
+kubectl get node
+```
